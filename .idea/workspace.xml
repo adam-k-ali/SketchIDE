@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b008685b-e9b9-40be-91be-b8d3efdb6cb7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/detekt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.run/desktop.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/ProjectData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/ProjectManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/ProjectPackage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/Lexer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/IdentifierToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/NewLineToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/SLCommentToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/TabToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/Token.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/WhitespaceToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/KeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/context/ImportKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/context/PackageKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/exception/AssertKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/exception/CatchKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/exception/FinallyKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/exception/ThrowKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/exception/ThrowsKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/exception/TryKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/flow/BreakKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/flow/CaseKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/flow/ContinueKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/flow/DefaultKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/flow/DoKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/flow/ElseKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/flow/ForKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/flow/GoToKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/flow/IfKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/flow/InstanceOfKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/flow/ReturnKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/flow/SwitchKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/flow/WhileKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/literal/FalseKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/literal/LiteralKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/literal/NullKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/literal/TrueKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/AbstractKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/ClassKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/ConstKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/EnumKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/ExtendsKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/FinalKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/ImplementsKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/InterfaceKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/ModifierKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/NativeKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/NewKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/StaticKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/StrictFPKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/SynchronizedKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/TransientKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/modifier/VolatileKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/reference/SuperKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/reference/ThisKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/scope/PrivateKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/scope/ProtectedKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/scope/PublicKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/scope/ScopeKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/type/BooleanKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/type/ByteKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/type/CharKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/type/DoubleKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/type/FloatKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/type/IntKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/type/LongKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/type/ShortKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/type/TypeKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/keyword/type/VoidKeywordToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/literal/DoubleToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/literal/FloatToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/literal/LiteralToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/literal/StringToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/AssignmentToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/DotToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/OperatorToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/SemicolonToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/character/CommaToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/character/LBraceToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/character/LBracketToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/character/LParenToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/character/RBraceToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/character/RBracketToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/character/RParenToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/bit/BitAndToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/bit/BitNotToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/bit/BitOrToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/bit/BitShiftLeftToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/bit/BitShiftRightToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/bit/BitURightShiftToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/bit/BitXorToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/bit/assignment/AndEqualsToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/bit/assignment/OrEqualsToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/bit/assignment/XorEqualsToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/comparison/AndToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/comparison/GTEqToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/comparison/GTToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/comparison/LTEqToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/comparison/LTToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/comparison/NEqualityToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/comparison/NotToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/logic/comparison/OrToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/math/AdditionToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/math/DecrementToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/math/DivisionToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/math/EqualityToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/math/IncrementToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/math/ModuloToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/math/MultiplicationToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/math/SubtractionToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/math/assignment/DivideEqualsToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/math/assignment/MinusEqualsToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/math/assignment/ModEqualsToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/math/assignment/PlusEqualsToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang/tokens/operator/math/assignment/StarEqualsToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/preferences/EditorStyles.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/resources/testProject/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/resources/testProject/src/SrcA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/resources/testProject/src/SrcB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Core/src/main/resources/testProject/src/pkgA/SrcC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Desktop/src/main/java/com/adamkali/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Desktop/src/main/java/com/adamkali/browser/FolderNode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Desktop/src/main/java/com/adamkali/browser/FolderTreeAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Desktop/src/main/java/com/adamkali/browser/ProjectBrowser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Desktop/src/main/java/com/adamkali/browser/ProjectIcons.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Desktop/src/main/java/com/adamkali/editor/StyleAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SketchIDE-Desktop/src/main/resources/folder_24dp_FILL0_wght400_GRAD0_opsz24.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testProject/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testProject/src/SrcA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testProject/src/SrcB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testProject/src/pkgA/SrcC.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/SketchIDE-Desktop">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-graphics-desktop/1.4.1/c7bf0f34d8249be48f469acb69d0bae872518cf0/ui-graphics-desktop-1.4.1-sources.jar!/commonMain/androidx/compose/ui/graphics/Color.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-text-desktop/1.4.1/fd7eaca24cb09940b10d96ce00600c7765dff1d1/ui-text-desktop-1.4.1-sources.jar!/commonMain/androidx/compose/ui/text/SpanStyle.kt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gsYWAFZjYVh75fEzs2LsPdPkrp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "/Users/adamali/Developer/IdeaProjects/SketchIDE/SketchIDE-Core/src/main/java/com/adamkali/lang",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SketchIDE-Core/src/main/java/com/adamkali/lang" />
+      <recent name="$PROJECT_DIR$/SketchIDE-Desktop/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SketchIDE-Desktop/src/main/resources" />
+      <recent name="$PROJECT_DIR$/SketchIDE-Desktop/src/main/java/com/adamkali/browser" />
+      <recent name="$PROJECT_DIR$/SketchIDE-Desktop/src/main/resources/testProject" />
+      <recent name="$PROJECT_DIR$/src/main/resources/testProject" />
+      <recent name="$PROJECT_DIR$/SketchIDE-Core/src/main/resources/testProject" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.adamkali" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b008685b-e9b9-40be-91be-b8d3efdb6cb7" name="Changes" comment="" />
+      <created>1716487781157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716487781157</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
